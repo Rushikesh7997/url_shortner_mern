@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 
 const UrlForm = () => {
 
-    const [url, setUrl] = useState("https://www.google.com")
+    const [url, setUrl] = useState("")
     const [shortUrl, setShortUrl] = useState();
     const [isCopied, setIsCopied] = useState(false);
     const [error, setError] = useState(null)

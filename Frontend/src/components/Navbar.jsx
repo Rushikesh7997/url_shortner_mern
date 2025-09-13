@@ -14,7 +14,7 @@ const Navbar = ({isLoggedIn, userName, onLogout}) => {
           {/* Left Side: Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-              YourLogo
+              URL Shortener
             </Link>
           </div>
 
